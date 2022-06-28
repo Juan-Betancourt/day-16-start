@@ -1,6 +1,14 @@
-import another_module
+# import another_module
+#
+# print(another_module.another_variable)
 
-print(another_module.another_variable)
+from turtle import Turtle, Screen
+timmy = Turtle()
+print(timmy)
+timmy.shape("turtle")
+timmy.color("DarkSeaGreen1", "DarkSeaGreen")
+timmy.forward(100)
 
-import turtle
-
+my_screen = Screen()
+print(my_screen.canvheight)
+my_screen.exitonclick()
